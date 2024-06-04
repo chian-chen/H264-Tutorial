@@ -1246,15 +1246,3 @@ volume 39, page 40. Springer, 2014.
 [12] [https://github.com/leandromoreira/digital_video_introduction/blob/master/README-cn.md#自己动手检查-ycbcr-直方图](https://github.com/leandromoreira/digital_video_introduction/blob/master/README-cn.md#%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E6%A3%80%E6%9F%A5-ycbcr-%E7%9B%B4%E6%96%B9%E5%9B%BE)
 
 [13] [https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/](https://yasoob.me/posts/understanding-and-writing-jpeg-decoder-in-python/)
-
-### Books:
-
----
-
-[影像壓縮技術.pdf](README_imgs/%25E5%25BD%25B1%25E5%2583%258F%25E5%25A3%2593%25E7%25B8%25AE%25E6%258A%2580%25E8%25A1%2593.pdf)
-
-[H.264 and MPEG-4 Video Compression.pdf](README_imgs/H.264_and_MPEG-4_Video_Compression.pdf)
-
-[Iain E. Richardson - H264 (2nd edition).pdf](README_imgs/Iain_E._Richardson_-_H264_(2nd_edition).pdf)
-
-[data_compression.pdf](README_imgs/data_compression.pdf)
