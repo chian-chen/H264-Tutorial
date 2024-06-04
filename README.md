@@ -395,7 +395,7 @@ Here, the only mode that requires additional explanation is mode 3 (plane mode).
 Among these, LT and T0, T1, ..., T15, and L0, L1, ..., L15 are the information already encoded before prediction. First, we calculate the following two values from this information:
 
 $$
-\begin{align*}
+\begin{aligned*}
 H' = 
 & 1 * & (T_8 - T_6) & + \\
 & 2 * & (T_9 - T_5) & + \\
@@ -405,8 +405,8 @@ H' =
 & 6 * & (T_{13} - T_1) & + \\
 & 7 * & (T_{14} - T_0) & + \\
 & 8 * & (T_{15} - LT) & + \\
-\end{align*}, \quad 
-\begin{align*}
+\end{aligned*}, \quad 
+\begin{aligned*}
 V' = 
 & 1 * & (L_8 - L_6) & + \\
 & 2 * & (L_9 - L_5) & + \\
@@ -416,7 +416,7 @@ V' =
 & 6 * & (L_{13} - L_1) & + \\
 & 7 * & (L_{14} - L_0) & + \\
 & 8 * & (L_{15} - LT) & + \\
-\end{align*}
+\end{aligned*}
 $$
 
 $$
@@ -598,8 +598,8 @@ ref: [4] Figure 6.28
 
 $$
 \textbf{a} = \text{round}(\frac{[(8 - d_x)(8 - d_y) A + d_x(8 - d_y) B + (8 - d_x) d_y C + d_xd_yD]}{64}) 
-
 $$
+
 
 $$
  = \text{round}(\frac{30A + 10B + 18C + 6D}{64})
