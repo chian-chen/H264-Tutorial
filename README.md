@@ -395,7 +395,7 @@ Here, the only mode that requires additional explanation is mode 3 (plane mode).
 Among these, LT and T0, T1, ..., T15, and L0, L1, ..., L15 are the information already encoded before prediction. First, we calculate the following two values from this information:
 
 $$
-\begin{aligned*}
+\begin{align*}
 H' = 
 & 1 * & (T_8 - T_6) & + \\
 & 2 * & (T_9 - T_5) & + \\
@@ -405,8 +405,8 @@ H' =
 & 6 * & (T_{13} - T_1) & + \\
 & 7 * & (T_{14} - T_0) & + \\
 & 8 * & (T_{15} - LT) & + \\
-\end{aligned*}, \quad 
-\begin{aligned*}
+\end{align*}, \quad 
+\begin{align*}
 V' = 
 & 1 * & (L_8 - L_6) & + \\
 & 2 * & (L_9 - L_5) & + \\
@@ -416,7 +416,7 @@ V' =
 & 6 * & (L_{13} - L_1) & + \\
 & 7 * & (L_{14} - L_0) & + \\
 & 8 * & (L_{15} - LT) & + \\
-\end{aligned*}
+\end{align*}
 $$
 
 $$
@@ -755,7 +755,6 @@ H_{Luma} =
 \begin{bmatrix}
 1 & 1  \\
 1 & -1  \\
-
 \end{bmatrix}
 $$
 
@@ -955,6 +954,7 @@ m(QP, 2) & m(QP, 1) & m(QP, 2) & m(QP, 1) \\
 \end{bmatrix}
 $$
 
+
 $$
 m(QP, n) = m(QP \% 6, n)/2^{\text{floor}(QP/6)}
 $$
@@ -1020,9 +1020,11 @@ $$
 \text{code\_num} \longrightarrow  [\text{Zero Prefix}][1][\text{Info}]
 $$
 
+
 $$
 \text{number of prefix zeros = M = floor}(\log_2[\text{code\_num + 1}])
 $$
+
 
 $$
 \text{Info}=\text{code\_num} + 1 - 2^M
